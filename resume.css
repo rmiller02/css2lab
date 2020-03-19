@@ -1,0 +1,155 @@
+nav li {
+	display: inline;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	margin-right: 30px;
+}
+nav a {
+	text-decoration: none;
+	color: red;
+}
+
+nav a:hover {
+	text-decoration: underline;
+	color: darkgrey;
+}
+h1 {
+	color: green;
+}
+h2 {
+	color: orange;
+	font-size: 30px;
+}
+li {
+	font-weight: bold;
+}
+
+button{
+	border: 2px solid black;
+	padding: 10px 25px;
+	display: block;
+	margin-bottom: 20px;
+}
+button:hover{
+	background-color: black;
+	color: white;
+}
+.redbutton {
+	border: 2px solid red;
+}
+.redbutton:hover {
+	background-color: red;
+}
+.bluebutton{
+	border: 2px solid blue;
+}
+.bluebutton:hover {
+	background-color: blue;
+}
+table, th, td {
+	border: 1px solid black;
+	padding: 5px;
+}
+.tableheadingrow {
+	color: blue;
+	padding: 25px;
+}
+
+.winstonlogo{
+	transform: rotate(180deg);
+	border: dotted;
+	color: red;
+}
+form input, form select {
+	display: block;
+}
+.inline {
+	display: inline;
+}
+
+
+
+
+
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: lightblue;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 90%;
+  padding: 20px;
+}
+
+.fakeimg3 img{
+	transform: rotate(90deg);
+
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: lightblue;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+
+body {
+ background-image: url("https://2.bp.blogspot.com/-UFflTIlKyfg/Ud6FCdD6ibI/AAAAAAAABPE/qSMidhU7mLY/s1600/Sky+Anime+Landscape+34.png");
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-position: center;
+ background-size: 100% 100%;
+}
+
+
+
